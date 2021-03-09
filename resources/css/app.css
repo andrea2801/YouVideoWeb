@@ -1,0 +1,11 @@
+.video_block{
+    width: 40%;
+}
+.contenedor_welcome {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    margin: 35px;
+    margin-top: 35px;
+    margin-top: 175px;
+}
