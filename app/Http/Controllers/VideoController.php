@@ -38,6 +38,25 @@ class VideoController extends Controller
 
 
     }
+
+    protected function edit(int $id
+    )
+    {       $note= Video::find($id);
+        return view('editarvideo{id}',['note'=>$note]);
+
+
+    }
+    protected function update(Request $request)
+
+    {
+        DB::table('videos')->where('id',$request['id'])->update([
+            'title' => $request['title'],
+            'descripcion' => $request['descripcion']
+        ]);
+        echo "<script type='text/javascript'>alert('Video editado correctamente');</script>";
+        return view('publicar');
+
+    }
     protected function buscar(Request $request)
     {
         $videos=Video::join('users', 'videos.id_user', '=', 'users.id')
