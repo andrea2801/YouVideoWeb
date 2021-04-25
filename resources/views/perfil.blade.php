@@ -33,6 +33,7 @@
                                         <!-- <p>//$video->id_user->user()->name </p>-->
                                         <p>{{ $video->fechaSubida }}</p>
                                         <a href="{{route('destroy',$video->id)}}" style="cursor: pointer;">Eliminar</a>
+                                          <a href="{{route('editarvideo',$video->id)}}" style="cursor: pointer;">Editar</a>
                                     </div>
 
                                 @endforeach
