@@ -17,7 +17,7 @@ class VideoController extends Controller
     }
     public function index(Request $request)
     {
-        $request->user()->authorizeRoles(['user','guest','editor', 'admin']);
+        $request->user()->authorizeRoles(['user','editor', 'admin']);
         return view('video{id}');
     }
 
@@ -54,7 +54,9 @@ class VideoController extends Controller
             'descripcion' => $request['descripcion']
         ]);
         echo "<script type='text/javascript'>alert('Video editado correctamente');</script>";
+
         return redirect()->route('perfil');
+
 
     }
     protected function buscar(Request $request)
@@ -87,7 +89,7 @@ class VideoController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy($id)
     {
@@ -103,7 +105,7 @@ class VideoController extends Controller
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function show($id)
     {

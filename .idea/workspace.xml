@@ -5,16 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/buscar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/buscar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/editarUsers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/editarUsers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/editarvideo{id}.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/editarvideo{id}.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/perfil.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perfil.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/perfiluser.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perfiluser.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/publicar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/video{id}.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/video{id}.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +178,7 @@
       <workItem from="1615303010081" duration="5287000" />
       <workItem from="1615308547208" duration="6636000" />
       <workItem from="1619360933642" duration="10225000" />
-      <workItem from="1619452057502" duration="2351000" />
+      <workItem from="1619452057502" duration="8320000" />
     </task>
     <servers />
   </component>
