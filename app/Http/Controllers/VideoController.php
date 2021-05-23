@@ -34,8 +34,27 @@ class VideoController extends Controller
             'id_user'=> Auth::id(),
         ]);
         echo "<script type='text/javascript'>alert('Video subido correctamente');</script>";
-        return view('publicar');
+        return redirect()->route('perfil');
 
+
+    }
+
+    protected function edit(int $id
+    )
+    {       $note= Video::find($id);
+        return view('editarvideo{id}',['note'=>$note]);
+
+
+    }
+    protected function update(Request $request)
+
+    {
+        DB::table('videos')->where('id',$request['id'])->update([
+            'title' => $request['title'],
+            'descripcion' => $request['descripcion']
+        ]);
+        echo "<script type='text/javascript'>alert('Video editado correctamente');</script>";
+        return redirect()->route('perfil');
 
     }
     protected function buscar(Request $request)
@@ -77,7 +96,7 @@ class VideoController extends Controller
             ->where('videos.id',$id)
             ->delete();
         echo "<script type='text/javascript'>alert('Video eliminado correctamente');</script>";
-        return view('publicar');
+        return redirect()->route('perfil');
     }
 
     /**

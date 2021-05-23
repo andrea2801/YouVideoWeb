@@ -32,7 +32,7 @@
                             @endif
                         @endif
                         <div class="contenerdor_videos">
-                                <form  class="buscar_video" method="get" action="{{ route('buscar') }}" enctype="multipart/form-data">
+                                <form  class="buscar_video" method="post" action="{{ route('buscar') }}" enctype="multipart/form-data">
                                     @csrf
                                 <input type="text" name="texto"  placeholder="Buscar">
                                     <input type="submit" name="subir" value="Buscar">

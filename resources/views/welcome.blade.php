@@ -66,8 +66,7 @@
                     @foreach ($videos as $video)
                         <div class="video_block">
                             <video width="400"  height="240" controls>
-                                <source src="{{asset('storage/app/'.$video->url)}}" type="video/mp4">
-                                <source src="{{asset('storage/app/'.$video->url)}}" type="video/mkv">
+                                <source src="{{asset('storage/app/'.$video->url)}}" type="videos/mp4">
                             </video>
 
                             <a href="{{route('video.id',$video->id)}}"><h1>{{ $video->title }}</h1></a>

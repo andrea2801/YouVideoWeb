@@ -26,7 +26,7 @@ class UserController extends Controller
      */
     public function index(Request $request)
     {
-        $request->user()->authorizeRoles(['admin']);
+        $request->user()->authorizeRoles(['user','guest','editor', 'admin']);
         $videos = Video::where('id_user', Auth::id())->get();
 
 

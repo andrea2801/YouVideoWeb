@@ -40,6 +40,9 @@ Route::get('/home/editarUsers/admin/edit/{id}', [App\Http\Controllers\UserContro
 Route::get('/home/editarUsers/admin/delete/{id}', [App\Http\Controllers\UserController::class, 'delete'])->name('delete');
 Route::get('/home/editarUsers/admin', [App\Http\Controllers\UserController::class, 'admin'])->name('editarUsers');
 Route::post('/home/publicar/create', [App\Http\Controllers\VideoController::class, 'createvideo'])->name('createvideo');
+Route::get('/home/publicar/editarvideo/{id}', [App\Http\Controllers\VideoController::class, 'edit'])->name('editarvideo');
+Route::post('/home/video/editado', [App\Http\Controllers\VideoController::class, 'update'])->name('editado');;
+
 Route::post('/home/buscar', [App\Http\Controllers\VideoController::class, 'buscar'])->name('buscar');
 Route::get('/home/perfil/destroy/{id}', [App\Http\Controllers\VideoController::class, 'destroy'])->name('destroy');
 Route::get('/home', [App\Http\Controllers\VideoController::class, 'view']);

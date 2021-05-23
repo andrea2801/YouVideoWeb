@@ -10,6 +10,27 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
+                        @if(Auth::user()->hasRole('admin'))
+                            <h4 class="Bienvenida">Bienvenido <b>{{ auth()->user()->name }}</b>  </h4>
+                            <a class="editar_users" href="{{ route('editarUsers') }}"> <buttom>Editar usuarios</buttom></a>
+                            <a class="perfil" href="{{ route('perfil') }}"> <buttom>Perfil de usuario</buttom></a>
+                            <a class="subir_videos" href="{{ route('publicar') }}"> <buttom>subir videos</buttom></a>
+
+                        @else
+                            @if(Auth::user()->hasRole('editor'))
+                                <h4 class="Bienvenida">Bienvenido <b>{{ auth()->user()->name }}</b>  </h4>
+                                <a class="perfil" href="{{ route('perfil') }}"> <buttom>Perfil de usuario</buttom></a>
+
+
+                                <a class="subir_videos" href="{{ route('publicar') }}"> <buttom>subir videos</buttom></a>
+
+                            @else
+                                <h4 class="Bienvenida">Bienvenido <b>{{ auth()->user()->name }}</b>  </h4>
+                                <a class="perfil" href="{{ route('perfil') }}"> <buttom>Perfil de usuario</buttom></a>
+
+
+                            @endif
+                        @endif
                     @endif
                         @foreach ($users as $user)
                         <h1 class="Perfil de">Perfil de <b>{{ $user->name }}</b>  </h1>

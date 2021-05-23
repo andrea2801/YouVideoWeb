@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42653f0f-84e2-4e18-8624-05cabc234ad8" name="Default Changelist" comment="" />
+    <list default="true" id="42653f0f-84e2-4e18-8624-05cabc234ad8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/buscar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/buscar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/editarUsers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/editarUsers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/editarvideo{id}.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/editarvideo{id}.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/perfil.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perfil.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/perfiluser.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perfiluser.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/publicar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/publicar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/video{id}.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/video{id}.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +25,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,7 +151,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="SQL Updates" />
     <property name="database.data.extractors.current.id" value="SQL Updates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Larael/LibrosWeb" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -166,7 +184,9 @@
       <workItem from="1615132242244" duration="16835000" />
       <workItem from="1615150756690" duration="26981000" />
       <workItem from="1615303010081" duration="5287000" />
-      <workItem from="1615308547208" duration="3589000" />
+      <workItem from="1615308547208" duration="6636000" />
+      <workItem from="1619360933642" duration="10225000" />
+      <workItem from="1619452057502" duration="2351000" />
     </task>
     <servers />
   </component>
@@ -186,10 +206,19 @@
       <screen x="0" y="0" width="1920" height="974" />
     </state>
     <state x="693" y="245" width="528" height="483" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.974@0.0.1920.974" timestamp="1615237378023" />
+    <state x="635" y="113" width="428" height="483" key="FileChooserDialogImpl" timestamp="1619372256631">
+      <screen x="0" y="0" width="1920" height="974" />
+    </state>
+    <state x="423" y="73" width="428" height="483" key="FileChooserDialogImpl/0.0.1280.629@0.0.1280.629" timestamp="1617904470833" />
+    <state x="635" y="113" key="FileChooserDialogImpl/0.0.1920.974@0.0.1920.974" timestamp="1619372256631" />
     <state x="632" y="212" width="649" height="549" key="NewPhpClassDialog" timestamp="1615149519996">
       <screen x="0" y="0" width="1920" height="974" />
     </state>
     <state x="632" y="212" width="649" height="549" key="NewPhpClassDialog/0.0.1920.974@0.0.1920.974" timestamp="1615149519996" />
+    <state x="757" y="413" width="399" height="147" key="NewPhpFileDialog" timestamp="1619364687248">
+      <screen x="0" y="0" width="1920" height="974" />
+    </state>
+    <state x="757" y="413" width="399" height="147" key="NewPhpFileDialog/0.0.1920.974@0.0.1920.974" timestamp="1619364687248" />
     <state x="857" y="377" width="363" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1615046178240">
       <screen x="0" y="0" width="1920" height="974" />
     </state>

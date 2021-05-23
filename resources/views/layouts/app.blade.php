@@ -20,7 +20,8 @@
             grid-template-columns: repeat(auto-fit, minmax(58px,1fr));
             position: absolute;
             grid-gap: 5px;
-            top: 38%;
+            top: 41%;
+
             left: 4%;
             width: 10%;
             text-align: center;
@@ -58,6 +59,11 @@
             top: 206px;
             width: 100%;
             text-align: center;
+        }
+        .subir_video_p {
+            display: grid;
+            grid-template-columns: 29%;
+            justify-content: center;
         }
         .buscar_video{
             position: absolute;

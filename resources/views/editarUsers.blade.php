@@ -12,6 +12,27 @@
                         </div>
                     @endif
                         @if(Auth::user()->hasRole('admin'))
+                            <h4 class="Bienvenida">Bienvenido <b>{{ auth()->user()->name }}</b>  </h4>
+                            <a class="editar_users" href="{{ route('editarUsers') }}"> <buttom>Editar usuarios</buttom></a>
+                            <a class="perfil" href="{{ route('perfil') }}"> <buttom>Perfil de usuario</buttom></a>
+                            <a class="subir_videos" href="{{ route('publicar') }}"> <buttom>subir videos</buttom></a>
+
+                        @else
+                            @if(Auth::user()->hasRole('editor'))
+                                <h4 class="Bienvenida">Bienvenido <b>{{ auth()->user()->name }}</b>  </h4>
+                                <a class="perfil" href="{{ route('perfil') }}"> <buttom>Perfil de usuario</buttom></a>
+
+
+                                <a class="subir_videos" href="{{ route('publicar') }}"> <buttom>subir videos</buttom></a>
+
+                            @else
+                                <h4 class="Bienvenida">Bienvenido <b>{{ auth()->user()->name }}</b>  </h4>
+                                <a class="perfil" href="{{ route('perfil') }}"> <buttom>Perfil de usuario</buttom></a>
+
+
+                            @endif
+                        @endif
+                        @if(Auth::user()->hasRole('admin'))
 
                         <span>* Cambiar rol a editor</span>
                         <table style="width:100%">
